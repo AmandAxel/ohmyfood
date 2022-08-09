@@ -1,0 +1,15 @@
+@mixin row {
+    display: flex;
+    flex-direction: row;
+}
+
+@mixin wrap {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@mixin limite {
+    margin: auto;
+    max-width: 320px;
+    padding-left: 0px;
+}
