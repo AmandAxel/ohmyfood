@@ -2,27 +2,47 @@ h1, h2, h3, h4, h5, h6 {
     font-family: 'Shrikhand', cursive;
 }
 
+i {
+    color: black;
+}
+
 body {
     margin: auto;
     text-align: center;
     font-family: 'Roboto', sans-serif;
 }
 
-nav {
+#location {
+    padding: 10px;
+    background-color: rgb(200, 200, 200);
+    
+}
+
+#location p {
+    margin: 0px;
+}
+
+nav div {
     display: flex;
     flex-wrap: wrap;
-    flex-direction: row-reverse;
-    justify-content: flex-end;
     width: 100%;
     margin: 0px;
 }
 
+nav h3 {
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 nav p {
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
     margin-right: 20px;
     margin-left: 20px;
-    width: 20px;
-    height: 20px;
-    border-radius: 20px;
+    width: 25px;
+    height: 25px;
+    border-radius: 100%;
     background-color: #9356DC;
     font-weight: bolder;
     color: white;
