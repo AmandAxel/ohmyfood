@@ -5,9 +5,11 @@ footer {
   font-family: "Roboto", sans-serif;
 }
 
-img {
+header img {
   text-align: center;
   font-family: "Shrikhand", cursive;
+  width: 60%;
+  margin-top: 30px;
 }
 
 h1, h2, h3, h4, h5, h6 {
