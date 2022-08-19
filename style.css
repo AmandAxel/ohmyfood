@@ -1,5 +1,6 @@
 footer {
-  background-color: rgb(50, 50, 50);
+  text-align: left;
+  background-color: rgb(150, 150, 150);
   list-style: none;
   font-family: "Roboto", sans-serif;
 }
@@ -16,6 +17,14 @@ h1, h2, h3, h4, h5, h6 {
 body {
   text-align: center;
   font-family: "Roboto", sans-serif;
+}
+
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row-reverse;
+  width: 100%;
+  margin: 0px;
 }
 
 nav p {
