@@ -12,14 +12,22 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 10px;
+    padding: 7px;
     background-color: rgb(230, 230, 230);
-    box-shadow: inset 0px 10px 10px rgb(180, 180, 180);
+    box-shadow: inset 0px 5px 5px rgb(180, 180, 180);
+    padding-right: 10%;
+}
+
+.location p {
+    font-size: small;
+    font-weight: 700;
 }
 
 .location i {
     box-shadow: none;
     background-color: transparent;
+    padding-right: 15px;
+    font-size: medium;
 }
 
 .location p {
