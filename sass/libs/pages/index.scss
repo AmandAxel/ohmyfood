@@ -2,10 +2,6 @@ h1, h2, h3, h4 {
     font-family: 'Roboto', cursive;
 }
 
-i {
-    color: black;
-}
-
 body {
     margin: auto;
     text-align: center;
@@ -13,13 +9,37 @@ body {
 }
 
 .location {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     padding: 10px;
     background-color: rgb(230, 230, 230);
-    border: 2px rgb(220, 220, 220) inset;
+    box-shadow: inset 0px 10px 10px rgb(180, 180, 180);
+}
+
+.location i {
+    box-shadow: none;
+    background-color: transparent;
 }
 
 .location p {
     margin: 0px;
+}
+
+.presentation {
+    margin-top: 0px;
+}
+
+.presentation h1 {
+    
+    font-weight: 700;
+}
+
+.bloc_presentation {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10%;
+    max-width: 80%;
 }
 
 nav h2 {
@@ -28,6 +48,7 @@ nav h2 {
     font-weight: 900;
     font-size: large;
     margin-bottom: 0;
+    margin-top: 25px;
 }
 
 .bloc_nav {
@@ -44,7 +65,7 @@ nav h2 {
     margin-left: 5%;
     margin-right: 5%;
     background-color: rgb(240, 240, 240);
-    border-radius: 20px;
+    border-radius: 15px;
     margin-top: 10px;
 }
 
