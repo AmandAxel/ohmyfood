@@ -1,4 +1,4 @@
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4 {
     font-family: 'Roboto', cursive;
 }
 
@@ -12,40 +12,42 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-#location {
+.location {
     padding: 10px;
     background-color: rgb(230, 230, 230);
     border: 2px rgb(220, 220, 220) inset;
 }
 
-#location p {
+.location p {
     margin: 0px;
 }
 
-nav div {
+.bloc_nav {
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
     width: 100%;
     margin: 0px;
 }
 
-nav h3 {
+.numb {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 5%;
+    margin-right: 10%;
+}
+
+.numb h3 {
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-nav p {
-    position: relative;
-    text-align: center;
-    vertical-align: middle;
-    margin-right: 20px;
-    margin-left: 20px;
-    width: 25px;
-    height: 25px;
+.numb p {
     border-radius: 100%;
     background-color: #9356DC;
     font-weight: bolder;
     color: white;
+    padding: 2px 7px 2px 7px;
 }
 
 section {
