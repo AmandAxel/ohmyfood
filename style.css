@@ -113,13 +113,29 @@ nav h2 {
   margin-right: 5%;
   background-color: rgb(240, 240, 240);
   border-radius: 15px;
-  margin-top: 10px;
+  margin-top: 20px;
+  height: 60px;
+  box-shadow: 10px 10px 5px rgb(199, 199, 199);
+}
+
+.numb:hover {
+  background-color: rgba(202, 192, 214, 0.6588235294);
+}
+.numb:hoveri {
+  color: #6f2ebe;
+}
+.numb:hoverp {
+  background-color: #6f2ebe;
 }
 
 .numb i {
   padding-left: 20px;
   padding-right: 20px;
   color: gray;
+}
+
+.numb i:hover {
+  color: #6f2ebe;
 }
 
 .numb h3 {
