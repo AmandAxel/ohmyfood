@@ -134,6 +134,11 @@ section {
   background-color: #b6ddd3;
 }
 
+.main {
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
 figure {
   max-width: 95%;
   border-radius: 5px;
