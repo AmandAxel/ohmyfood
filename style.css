@@ -41,6 +41,11 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
+img {
+  max-width: 150px;
+  object-fit: cover;
+}
+
 .location {
   display: flex;
   align-items: center;
@@ -68,6 +73,7 @@ body {
 }
 
 .presentation {
+  background-color: rgb(222, 222, 222);
   margin-top: 0px;
 }
 
@@ -130,22 +136,46 @@ nav h2 {
   font-size: small;
 }
 
+.main {
+  background-color: rgb(222, 222, 222);
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  padding-bottom: 5px;
+}
+
+.main h2 {
+  text-align: left;
+  padding-top: 20px;
+  padding-left: 20px;
+}
+
 section {
   background-color: #b6ddd3;
 }
 
-.main {
-  border-top-left-radius: 20px;
-  border-top-right-radius: 20px;
+figure {
+  text-decoration: none;
+  background-color: white;
+  max-width: 95%;
+  border-radius: 20px;
+  margin: 20px;
 }
 
-figure {
-  max-width: 95%;
-  border-radius: 5px;
+figure img {
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  max-width: 500px;
+  width: 280px;
+  height: 110px;
 }
 
 figcaption {
+  padding-left: 10px;
+  text-decoration: none;
   text-align: left;
+  font-weight: 400;
+  font-size: small;
+  line-height: 5%;
 }
 
 /*# sourceMappingURL=style.css.map */
