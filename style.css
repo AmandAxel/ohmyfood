@@ -121,8 +121,8 @@ button h2 {
 nav h2 {
   text-align: left;
   padding-left: 3%;
-  font-weight: 900;
-  font-size: 16px;
+  font-weight: 800;
+  font-size: 18px;
   margin-bottom: 0;
   margin-top: 25px;
 }
@@ -186,8 +186,8 @@ nav p {
   text-align: left;
   padding-left: 3%;
   padding-top: 20px;
-  font-weight: 900;
-  font-size: large;
+  font-weight: 800;
+  font-size: 18px;
   margin-bottom: 0;
   margin-top: 25px;
 }
