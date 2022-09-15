@@ -49,13 +49,19 @@ a {
 }
 
 button {
+  margin: auto;
+  padding: 0px 20px 0px 20px;
   border-radius: 30px;
   margin-bottom: 40px;
+  max-width: 220px;
+  color: white;
+  background: linear-gradient(to bottom right, #FF79DA, #9356DC);
+  border: none;
 }
 
 button h2 {
   font-size: 15px;
-  font-weight: 800;
+  font-weight: 500;
 }
 
 .location {
@@ -76,7 +82,7 @@ button h2 {
 
 .location i {
   position: absolute;
-  left: 25%;
+  left: 23%;
   box-shadow: none;
   background-color: transparent;
   padding-right: 15px;
