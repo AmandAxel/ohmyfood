@@ -48,6 +48,16 @@ a {
   text-decoration: none;
 }
 
+button {
+  border-radius: 30px;
+  margin-bottom: 40px;
+}
+
+button h2 {
+  font-size: 15px;
+  font-weight: 800;
+}
+
 .location {
   position: relative;
   display: flex;
@@ -175,11 +185,25 @@ nav p {
   margin-top: 25px;
 }
 
+.new {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: #99E2D0;
+  color: #5f8f83;
+  font-size: 13px;
+  font-weight: 700;
+  width: 70px;
+  height: 17px;
+  padding-top: 2px;
+}
+
 section {
   background-color: #b6ddd3;
 }
 
 figure {
+  position: relative;
   background-color: white;
   max-width: 280px;
   border-radius: 20px;
