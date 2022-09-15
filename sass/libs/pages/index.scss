@@ -14,6 +14,10 @@ img
     object-fit: cover;
 }
 
+a {
+    text-decoration: none;
+}
+
 .location {
     display: flex;
     align-items: center;
@@ -94,28 +98,13 @@ nav h2 {
 
 .numb:hover {
     background-color: #cac0d6a8;
-
-    &i {
-        color: #6f2ebe;
-    }
-
-    &p {
-        background-color: #6f2ebe;
-    }
+    color: #6f2ebe;
 }
 
 .numb i {
     padding-left: 20px;
     padding-right: 20px;
     color: gray;
-}
-
-.numb i:hover {
-    color: #6f2ebe;
-}
-
-.numb a {
-    text-decoration: none;
 }
 
 .numb h3 {
@@ -153,7 +142,7 @@ section {
 
 figure {
     background-color: white;
-    max-width: 95%;
+    max-width: 280px;
     border-radius: 20px;
     margin: 20px;
 }
@@ -167,9 +156,15 @@ figure img {
 }
 
 figcaption {
+    position: relative;
     padding-left: 10px;
     text-align: left;
     font-weight: 400;
     font-size: small;
-    line-height: 5%;
+}
+
+figcaption i {
+    position: absolute;
+    right: 15px;
+    top: 1px;
 }
