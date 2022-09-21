@@ -122,7 +122,7 @@ nav p {
     box-shadow: 10px 10px 5px rgb(199, 199, 199);
 }
 
-.numb:hover {
+.numb:hover ~ i:hover {
     background-color: #cac0d6a8;
     margin-left: 25px;
     font-weight: 800;
@@ -223,8 +223,8 @@ figcaption p {
 
 figcaption .icon {
     fill: transparent;
-    stroke: black;
-    stroke-width: 20;
+    stroke: #9356DC;
+    stroke-width: 40;
     cursor: pointer;
     position: absolute;
     right: 15px;
@@ -253,33 +253,9 @@ figcaption .icon {
 }
 
 @keyframes stroke-animation {
-    0%{
-        stroke-dashoffset: 0;
-        fill: #ffffff;
-    }
-
-    20%{
-        stroke-dashoffset: 500;
-        fill: #c9c9c9;
-    }
-
-    40%{
-        stroke-dashoffset: 1000;
-        fill: #a7a7a7;
-    }
-
-    60%{
-        stroke-dashoffset: 1500;
-        fill: #666666;
-    }
-
-    80%{
-        stroke-dashoffset: 2000;
-        fill: #353535;
-    }
     100% {
         stroke-dashoffset: 2500;
-        fill: #000000;
+        fill: #9356DC;
     }
 }
 
