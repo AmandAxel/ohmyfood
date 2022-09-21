@@ -126,6 +126,11 @@ nav p {
     background-color: #cac0d6a8;
     margin-left: 25px;
     font-weight: 800;
+    color: #9356DC;
+
+    h3 {
+        color: #000000;
+    }
 }
 
 .numb i {
@@ -216,8 +221,68 @@ figcaption p {
     padding-bottom: 15px;
 }
 
-figcaption i {
+figcaption .icon {
+    fill: transparent;
+    stroke: black;
+    stroke-width: 20;
+    cursor: pointer;
     position: absolute;
     right: 15px;
-    top: 1px;
+    top: 5px;
+
+    svg {
+        overflow: visible;
+        width: 25px;
+    }
+
+    .heart-background{
+        position: absolute;
+        left: 0;
+        right: 0;
+        z-index: -1;
+        stroke: none;
+    }
+
+    .heart-main:hover path{
+        animation: stroke-animation 0.3s ease-in-out forwards;
+    }
+
+    .heart-main:hover ~ .heart-background path {
+        animation: fade-animation 0.3s ease-in-out forwards;
+    }
+}
+
+@keyframes stroke-animation {
+    0%{
+        stroke-dashoffset: 0;
+        fill: #ffffff;
+    }
+
+    20%{
+        stroke-dashoffset: 500;
+        fill: #c9c9c9;
+    }
+
+    40%{
+        stroke-dashoffset: 1000;
+        fill: #a7a7a7;
+    }
+
+    60%{
+        stroke-dashoffset: 1500;
+        fill: #666666;
+    }
+
+    80%{
+        stroke-dashoffset: 2000;
+        fill: #353535;
+    }
+    100% {
+        stroke-dashoffset: 2500;
+        fill: #000000;
+    }
+}
+
+.heart-main, .heart-background {
+    font-size: 10px;
 }
