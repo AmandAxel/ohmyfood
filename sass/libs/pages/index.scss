@@ -110,11 +110,14 @@ nav p {
     background-color: #cac0d6a8;
     margin-left: 25px;
     font-weight: 800;
+}
+
+.numb:hover .menu {
     color: #9356DC;
 }
 
-.numb:hover .fa-mobile-screen {
-    color: #9356DC;
+.numb h3 {
+    color: black;
 }
 
 .numb i {
@@ -204,4 +207,3 @@ figcaption p {
     margin-bottom: 0;
     padding-bottom: 15px;
 }
-

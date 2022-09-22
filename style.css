@@ -156,11 +156,14 @@ nav p {
   background-color: rgba(202, 192, 214, 0.6588235294);
   margin-left: 25px;
   font-weight: 800;
+}
+
+.numb:hover .menu {
   color: #9356DC;
 }
 
-.numb:hover .fa-mobile-screen {
-  color: #9356DC;
+.numb h3 {
+  color: black;
 }
 
 .numb i {
@@ -253,7 +256,7 @@ figcaption p {
 
 figcaption .icon {
   fill: transparent;
-  stroke: #9356DC;
+  stroke: #000000;
   stroke-width: 40;
   cursor: pointer;
   position: absolute;
