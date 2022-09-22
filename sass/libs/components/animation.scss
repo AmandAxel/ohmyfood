@@ -1,0 +1,41 @@
+figcaption .icon {
+    fill: transparent;
+    stroke: #9356DC;
+    stroke-width: 40;
+    cursor: pointer;
+    position: absolute;
+    right: 15px;
+    top: 5px;
+
+    svg {
+        overflow: visible;
+        width: 25px;
+    }
+
+    .heart-background{
+        position: absolute;
+        left: 0;
+        right: 0;
+        z-index: -1;
+        stroke: none;
+    }
+
+    .heart-main:hover path{
+        animation: stroke-animation 0.3s ease-in-out forwards;
+    }
+
+    .heart-main:hover ~ .heart-background path {
+        animation: fade-animation 0.3s ease-in-out forwards;
+    }
+}
+
+@keyframes stroke-animation {
+    100% {
+        stroke-dashoffset: 2500;
+        fill: #9356DC;
+    }
+}
+
+.heart-main, .heart-background {
+    font-size: 10px;
+}
