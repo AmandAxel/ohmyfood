@@ -1,3 +1,19 @@
+button {
+  margin: auto;
+  padding: 0px 20px 0px 20px;
+  border-radius: 30px;
+  margin-bottom: 40px;
+  max-width: 220px;
+  color: white;
+  background: linear-gradient(to bottom right, #FF79DA, #9356DC);
+  border: none;
+}
+
+button h2 {
+  font-size: 15px;
+  font-weight: 500;
+}
+
 footer {
   text-align: left;
   background-color: rgb(75, 75, 75);
@@ -46,22 +62,6 @@ img {
 
 a {
   text-decoration: none;
-}
-
-button {
-  margin: auto;
-  padding: 0px 20px 0px 20px;
-  border-radius: 30px;
-  margin-bottom: 40px;
-  max-width: 220px;
-  color: white;
-  background: linear-gradient(to bottom right, #FF79DA, #9356DC);
-  border: none;
-}
-
-button h2 {
-  font-size: 15px;
-  font-weight: 500;
 }
 
 .location {
@@ -152,14 +152,15 @@ nav p {
   box-shadow: 10px 10px 5px rgb(199, 199, 199);
 }
 
-.numb:hover ~ i:hover {
+.numb:hover {
   background-color: rgba(202, 192, 214, 0.6588235294);
   margin-left: 25px;
   font-weight: 800;
   color: #9356DC;
 }
-.numb:hover ~ i:hover h3 {
-  color: #000000;
+
+.numb:hover .fa-mobile-screen {
+  color: #9356DC;
 }
 
 .numb i {
