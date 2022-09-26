@@ -1,0 +1,35 @@
+section img {
+    height: 231px;
+    width: auto;
+    background-color: transparent;
+    position: relative;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+
+.sec_menu {
+    background-color: rgb(240, 240, 240);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    margin-top: -30px;
+    position: relative;
+    left: 0;
+    right: 0;
+    z-index: 2;
+}
+
+.sec_menu h1 {
+    text-align: left;
+    margin: 0;
+    padding-top: 20px;
+    padding-left: 30px;
+    text-align: left;
+    font-weight: 900;
+    font-size: 30px;
+}
+
+.entrees h2 {
+    text-align: center;
+    padding-left: 30px;
+}

@@ -10,7 +10,7 @@ body {
 
 img
 {
-    max-width: 150px;
+    width: 150px;
     object-fit: cover;
 }
 
@@ -166,10 +166,6 @@ nav p {
     width: 70px;
     height: 17px;
     padding-top: 2px;
-}
-
-section {
-    background-color: #b6ddd3;
 }
 
 figure {
