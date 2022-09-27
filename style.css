@@ -89,7 +89,7 @@ section img {
   padding-top: 20px;
   padding-left: 20px;
   text-align: left;
-  font-weight: 400;
+  font-weight: 500;
   font-size: 25px;
 }
 
@@ -345,43 +345,38 @@ figcaption p {
   padding-bottom: 15px;
 }
 
-.icon {
-  fill: transparent;
-  stroke: #000000;
-  stroke-width: 40;
+.icon i {
   cursor: pointer;
   position: absolute;
   right: 15px;
   top: 5px;
-}
-.icon svg {
   overflow: visible;
-  width: 25px;
+  font-size: 30px;
+  font-weight: 400;
 }
-.icon .heart-background {
+.icon i .heart-background {
   position: absolute;
   left: 0;
   right: 0;
   z-index: -1;
-  stroke: none;
+  font-weight: 0;
 }
-.icon .heart-main:hover path {
+.icon i .heart-main:hover i {
   animation: stroke-animation 0.3s ease-in-out forwards;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
 }
-.icon .heart-main:hover ~ .heart-background path {
+.icon i .heart-main:hover ~ .heart-background i {
   animation: fade-animation 0.3s ease-in-out forwards;
 }
 
 @keyframes stroke-animation {
   100% {
-    stroke-dashoffset: 2500;
-    fill: #9356DC;
+    font-weight: 2500;
+    background: linear-gradient(to bottom right, #FF79DA, #9356DC);
   }
 }
-.heart-main, .heart-background {
-  font-size: 10px;
-}
-
 @keyframes fadeIn {
   0% {
     opacity: 0;
