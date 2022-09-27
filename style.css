@@ -382,4 +382,72 @@ figcaption p {
   font-size: 10px;
 }
 
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: scale3d(0.75, 0.75, 1);
+  }
+  50% {
+    opacity: 0;
+    transform: scale3d(0.75, 0.75, 1);
+  }
+  100% {
+    opacity: 1;
+    transform: scale3d(1, 1, 1);
+  }
+}
+.un {
+  animation: fadeIn 2s cubic-bezier(0.39, -1.05, 0.58, 1.95);
+  animation-delay: -0.1s;
+  transform-origin: bottom;
+}
+
+.deux {
+  animation: fadeIn 2.2s cubic-bezier(0.39, -1.05, 0.58, 1.95);
+  animation-delay: -0.1s;
+  transform-origin: bottom;
+}
+
+.trois {
+  animation: fadeIn 2.4s cubic-bezier(0.39, -1.05, 0.58, 1.95);
+  animation-delay: -0.1s;
+  transform-origin: bottom;
+}
+
+.quatre {
+  animation: fadeIn 2.6s cubic-bezier(0.39, -1.05, 0.58, 1.95);
+  animation-delay: -0.1s;
+  transform-origin: bottom;
+}
+
+.cinq {
+  animation: fadeIn 2.8s cubic-bezier(0.39, -1.05, 0.58, 1.95);
+  animation-delay: -0.1s;
+  transform-origin: bottom;
+}
+
+.six {
+  animation: fadeIn 3s cubic-bezier(0.39, -1.05, 0.58, 1.95);
+  animation-delay: -0.1s;
+  transform-origin: bottom;
+}
+
+.sept {
+  animation: fadeIn 3.2s cubic-bezier(0.39, -1.05, 0.58, 1.95);
+  animation-delay: -0.1s;
+  transform-origin: bottom;
+}
+
+.huit {
+  animation: fadeIn 3.4s cubic-bezier(0.39, -1.05, 0.58, 1.95);
+  animation-delay: -0.1s;
+  transform-origin: bottom;
+}
+
+.neuf {
+  animation: fadeIn 3.6s cubic-bezier(0.39, -1.05, 0.58, 1.95);
+  animation-delay: -0.1s;
+  transform-origin: bottom;
+}
+
 /*# sourceMappingURL=style.css.map */
