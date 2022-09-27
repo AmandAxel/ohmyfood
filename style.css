@@ -25,7 +25,7 @@ button h2 {
   border: none;
 }
 
-.commander h2 {
+.commander p {
   font-size: 15px;
   font-weight: 500;
 }
@@ -380,10 +380,6 @@ figcaption p {
 }
 .heart-main, .heart-background {
   font-size: 10px;
-}
-
-.entrees i {
-  fill: transparent;
 }
 
 /*# sourceMappingURL=style.css.map */
